@@ -29,7 +29,7 @@ const Login = ({
         if(getUserLogged()){
             history.push('/Home');
         }
-      },[getUserLogged]);
+      },[]);
 
     const { register, handleSubmit, errors } = useForm();
 
