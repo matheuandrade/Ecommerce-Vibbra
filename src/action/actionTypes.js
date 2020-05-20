@@ -1,0 +1,4 @@
+export const SET_LOGIN = "SET_LOGIN";
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED";
+export const SET_LOCATION = "SET_USER_LOCATION";
+export const SET_DEAL_SEARCH = "SET_DEAL_SEARCH";
