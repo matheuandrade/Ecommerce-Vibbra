@@ -13,12 +13,13 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies...
+      - yarn config set ignore-engines true
       - yarn
   build:
     commands:
       # - echo Testing...
       # - yarn test
-      - echo Building...
+      - echo Building...      
       - yarn build
 artifacts:
   files:
