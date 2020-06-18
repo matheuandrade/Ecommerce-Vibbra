@@ -1,8 +1,6 @@
 import React from 'react';
 
-const Deal = ({
-
-}) => {  
+const Deal = () => {  
     return (
       <>
         <h1>Deal</h1>

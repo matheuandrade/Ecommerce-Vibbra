@@ -1,8 +1,6 @@
 import React from 'react';
 
-const Invite = ({
-
-}) => {  
+const Invite = () => {  
     return (
       <>
         <h1>Invite</h1>

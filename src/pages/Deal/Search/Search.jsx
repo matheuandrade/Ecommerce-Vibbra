@@ -47,7 +47,7 @@ const Search = ({
     if(!deals){
       SearchDeal({}); 
     }
-  },[deals]);
+  },[deals, SearchDeal, location, setUserLocation]);
 
   const classes = useStyles();
 
